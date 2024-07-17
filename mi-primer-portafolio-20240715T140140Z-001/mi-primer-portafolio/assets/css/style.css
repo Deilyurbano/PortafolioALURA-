@@ -1,0 +1,415 @@
+:root{
+    --color-fondo-azul: #E8F9FF;
+    --color-fondo-rosa: #FEF0FF;
+    --color-letras-azul: #0381AE;
+    --color-letras-rosa: #7F2588;
+    --color-letras-parrafos:  rgb(97, 95, 95);
+}
+
+body {
+    box-sizing: border-box;
+    background-color: rgb(49, 246, 246);
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+a{
+    color: var(--color-letras-rosa);
+}
+/*Header*/
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+}
+
+.cabecera__menu--lista{
+    display: none;
+}
+
+.cabecera__nombre{
+    font-size: 1rem;
+    color: var(--color-letras-rosa);
+    font-weight: 700;
+    line-height: 1
+}
+
+.cabecera__menu--lista-item.contacto-zore{
+    list-style: none;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--color-letras-parrafos)
+}
+
+/*Titulo y Perfil*/
+
+.title__div{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+   
+}
+
+.title__profile{
+    width: 25%;
+    height: auto;
+    padding: 0 0 1rem 0;
+    align-items: start;
+    position: relative;
+    
+}
+
+.title__bio{
+    color: var(--color-letras-rosa);
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    padding-bottom: 1rem;
+}
+
+.title__paragraph{
+    color: var(--color-letras-parrafos);
+    font-size: 0.88rem;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 1rem;
+    font-style: normal;
+}
+
+.title__network{
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    
+}
+.title__network__item{
+    font-size: 0.8rem;
+}
+
+/*Sobre mi*/
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    background:  rgb(163, 243, 243);
+    padding: 0 2rem;  
+
+}
+
+.about__title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-letras-rosa);
+    font-style: normal;
+    padding: 0 0 1rem 0;
+    line-height: normal;
+}
+
+.about__paragraph{
+    font-size: 0.88rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2;
+    text-align: justify;
+    color: var(--color-letras-parrafos);
+
+}
+
+.firma{
+    width: 10%;
+    height: auto;
+    padding-top: 1rem;
+}
+
+/*Habilidades*/
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    
+}
+.skills__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-self: stretch;
+    justify-content: space-evenly;
+    
+}
+.skills__title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-letras-rosa);
+    font-style: normal;
+    line-height: normal;
+}
+
+.skills__box{
+    background: white;
+    width: 33vw;
+    height: 15vh;
+    padding: 0 0 2rem 1rem;
+
+}
+
+.skills__list{
+    padding-top: 1.5rem;
+}
+
+.skills__name{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.2rem 0 0 0;
+    line-height: normal;
+    font-style: normal;
+
+}
+
+/*Hobbies*/
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+    
+}
+.hobbies__container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 1rem 0 1rem;
+    gap: 1rem;
+    align-self: stretch;
+    justify-content: space-evenly;
+    
+}
+.hobbies__title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-letras-rosa);
+    font-style: normal;
+    line-height: normal;
+}
+
+.hobbies__box{
+    background: white;
+    width: 33vw;
+    height: 15vh;
+    padding: 0 0 2rem 1rem; 
+}
+
+.hobbies__list{
+    padding-top: 1.5rem;
+}
+
+.hobbies__name{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: normal;
+    font-style: normal;
+}
+
+/*Formacion academica*/
+
+.academic{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(163, 243, 243);
+    align-items: center;
+    height: auto;
+    width: 100vw;
+    padding: 0 0 2rem 0;
+    
+}
+.academic__title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-letras-rosa);
+    font-style: normal;
+    line-height: normal;
+    padding: 1.5rem 0;
+
+}
+.academic__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+.academic__courses__box{ 
+    text-align: center;
+}
+.academic__courses__item__img{
+    background: white;
+    padding: 4rem;   
+}
+
+.academic__courses__item__title{
+    text-align: left;
+    font-family: "raleway";
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+   
+}
+
+.academic__courses__item__subtitle{
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+/*Experiencia*/
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+    
+}
+.experiencie__title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-letras-rosa);
+    font-style: normal;
+    line-height: normal;
+    padding: 2rem 0;
+}
+.experience__box{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 0 0 2rem 0;
+}
+.experience__img{
+  width: 89%;
+  height: auto;
+}
+.experience__info{
+    margin-top: 1rem;
+    width: 89%;
+    height: auto;
+}
+.experience__title{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 2;   
+}
+.experience__description{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.experience__boton--repo{
+    padding: 1rem 1.5rem;
+    background: transparent;
+    border: solid var(--color-letras-azul) 1px;
+    color: var(--color-letras-azul);
+    font-weight: 600;
+    font-size: 0.90rem;
+    font-style: normal;
+    line-height: normal;
+    gap: 1rem
+}
+.experience__boton--demo{
+    padding: 1rem 1.5rem;
+    background: var(--color-letras-azul);
+    border: none;
+    color: var(--color-fondo-azul);
+    font-weight: 600;
+    font-size: 0.90rem;
+    font-style: normal;
+    line-height: normal;
+}
+
+/*Contacto*/
+
+.form-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-contacto__container{
+    height: auto;
+    padding: 0 2rem;
+    text-align: justify;
+    gap: 1rem;
+   
+}
+.form-contacto__container--img{
+    display: none;
+}
+.form-contacto__text{
+    font-size: 1rem;
+    font-weight: 500;
+    align-self: stretch;
+    line-height: normal;
+    color: var(--color-letras-parrafos);
+}
+.form-contacto__title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-letras-azul);
+    font-style: normal;
+    line-height: normal;
+    padding-bottom: 1rem;
+}
+.form-contacto__datos{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 0;   
+}
+.form-contacto__input{
+    border: none;
+    padding: 1.3rem 0rem 1.3rem 0.5rem;
+    font-size: 1rem;
+    color: var(--color-letras-parrafos);
+    font-weight: 200;   
+}
+.form-contacto__textarea{
+    border: none;
+    padding: 1.3rem 0rem 1.3rem 0.5rem; 
+    color: var(--color-letras-parrafos);
+    font-family: 'Raleway';
+    font-size: 1rem;
+}
+.form-contacto__boton{
+    display: flex;
+    padding: 1rem;
+    text-align:center;
+    width: 36vw;
+    background: var(--color-letras-azul);
+    border: none;
+    color: var(--color-fondo-azul);
+    font-weight: 300;
+    font-size: 0.90rem;
+    font-style: normal;
+    line-height: normal;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background: rgb(163, 243, 243);;
+}
+.footer__container{
+    padding: 2rem;
+    text-align: center;
+    font-size: 1,2rem;
+    color: var(--color-letras-parrafos);
+    font-weight: 400;
+    line-height: normal;
+    font-style: normal;
+}

@@ -1,0 +1,108 @@
+@media screen and (min-width: 1024px) {
+    /*Header*/
+    .cabecera__nombre{
+        font-size: 1.5rem;
+    }
+    .cabecera__menu--lista{
+        display: flex;
+        gap: 1rem;
+        font-size: 1rem;
+        font-weight: 400;
+        color: var(--color-letras-parrafos)
+    }
+    .cabecera__menu--lista-item.contacto-zore{
+       display: none;
+    }
+
+/*Titulo y Perfil*/
+    .title__div{
+        padding: 2rem 6rem;
+        height: 30vh;
+        
+    }
+    .title__container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        margin-left: 4rem;
+
+    }
+    .title__bio{
+        font-size: 2rem;
+        justify-content: center;
+        
+    }
+    .title__profile{
+        justify-content: center;
+        width: 20vw;
+        height: auto;
+         
+    }
+    .title__paragraph{
+        font-size: 1.4rem;
+        line-height: 1.5;
+    }
+    .title__network{
+        display: flex;
+        align-items: flex-start;
+        gap: 3rem;
+        padding-top: 1rem;
+    }
+    .title__network__item{
+        font-size: 1.2rem;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        margin-left: 29%;
+        margin-right: 8%;
+        background: var(--color-fondo-azul);  
+    }
+    .about__paragraph{
+        font-size: 1.4rem;
+        line-height: 1.5;
+    }
+
+    .skills{
+        display: flex;
+        flex-direction: column;    
+    }
+    .skills__box{
+        width: 13vw;
+        height: 14vh;
+        text-align: justify;
+    }
+    .skills__list{
+        margin-top: 2.5rem;
+    }
+
+    .hobbies{
+        display: flex;
+        flex-direction: column;   
+    }
+    .hobbies__box{
+        width: 13vw;
+        height: 14vh;
+        text-align:start;
+        
+    }
+    .hobbies__list{
+        margin-top: 2.5rem;
+    }
+
+    .academic{
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: 100vw;
+    }
+    .academic__container{
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+    }
+    .academic__courses__item__img{
+        padding: 5rem;   
+    }
+}

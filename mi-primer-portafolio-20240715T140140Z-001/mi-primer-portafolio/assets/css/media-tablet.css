@@ -1,0 +1,145 @@
+@media screen and (min-width: 768px){
+    /*header*/
+    .cabecera__nombre{
+        font-size: 1rem;
+    }
+    .cabecera__menu--lista-item.contacto-zore{
+        font-size: 1rem;
+    }
+
+    /*Titulo y Perfil*/
+    .title__div{
+        display: flex;
+        flex-direction: row;
+    }
+    .title__container{
+      padding: 1rem;
+    }
+    .title__profile{
+        width: 25%;
+        height: auto;
+        padding: 0 2rem 0 0;
+    }
+    .title__bio{
+        font-size: 1.4rem;
+    }
+    .title__paragraph{
+        font-size: 1.12rem;
+        line-height: normal;
+    }
+    .title__network{
+        font-size: 1.2rem;
+    }
+
+    /*Sobre mi*/
+    .about__title{
+        font-size: 1.6rem;
+    }
+    .about__paragraph{
+        font-size: 1.12rem;
+    }
+    .firma{
+        width: 10%;
+        height: auto;
+    }
+
+    /*Habilidades*/
+    .skills__container{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 40px;
+    }
+    .skills__title{
+        font-size: 1.6rem;
+        padding: 1rem 0;
+    }
+    .skills__name{
+        font-size: 1.4rem;
+    }
+
+    /*Hobbies*/
+    .hobbies__container{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 40px;
+    }
+    .hobbies__title{
+        font-size: 1.6rem;
+        padding: 1rem 0;
+    }
+
+    .hobbies__name{
+        font-size: 1.4rem;
+        padding-right: 0.5rem;
+    }
+
+    /*Formacion academica*/
+    .academic__container{
+        display: flex;
+        flex-direction: row;
+        width: 89vw;
+        height: auto;
+        gap:2rem;
+    }
+    .academic__courses__box{
+        justify-content: center;
+    }
+    .academic__title{
+        font-size: 1.6rem;
+    }
+    .academic__courses__item__title{
+        font-size: 1rem;
+        margin-right: 0.5rem;
+    }
+    .academic__courses__item__subtitle{
+        font-size: 0.81rem;
+    }
+   
+    /*Experiencia*/
+    .experience{
+        display: flex;
+
+    }
+    .experiencie__title{
+        font-size: 1.6rem;
+    }
+    .experience__info{
+        display: flex;
+        flex-direction: column;
+    }
+    .experience__title{
+        font-size: 1.4rem
+    }
+    .experience__text{
+        font-size: 1.12rem;
+    }
+
+    /*Contacto*/
+    .form-contacto{
+        display: flex;
+        
+    }
+    .form-contacto__container{
+        width: 89vw;
+        height: auto;
+    }
+    .form-contacto__title{
+        font-size: 1.6rem;
+    }
+    .form-contacto__text{
+        font-size: 1.12rem;
+    }
+    .form-contacto__textarea{
+        font-size: 1.12rem;
+    }
+    .form-contacto__boton{
+        padding: 1.4rem;
+        font-size: 1.2rem;
+    }
+
+
+    .footer__container{
+        font-size: 1.31rem;
+    }
+  
+}
